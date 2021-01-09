@@ -1,0 +1,218 @@
+/*{
+    margin: 0px;
+    padding:0px;
+} 
+*/
+
+body {
+    background-color: hsl(0, 28%, 48%);
+    color: #2e148b;
+    font-family: Arial, Helvitica, Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /*same as above*/
+    font: normal 16px Arial, Helvitica, sans-serif;
+    line-height: 1.6em;
+}
+
+h1 {
+    color: aqua;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: brown;
+}
+
+.clr {
+    clear: both;
+}
+
+.box-1 {
+    background-color: rgb(72, 25, 201);
+    color: #0ae91d;
+    margin-left: 1em;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red dotted;
+    /* same as above*/
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top: red dotted;
+    margin-top: 2em;
+    /*----------------------------*/
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px 0;
+    /* same as above */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: wavy underline yellowgreen;
+    text-transform: uppercase;
+    letter-spacing: 0.2 em;
+}
+
+.box-2 {
+    border: 6px dotted rgb(238, 15, 227);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px rgb(21, 233, 49) solid;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.categories h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+}
+
+.categories ul {
+    padding: 0;
+    list-style: square;
+    list-style-type: none;
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+    padding-left: 20px;
+}
+
+
+/*
+ul :hover {
+    color: whitesmoke;
+}
+
+ul :visited {
+    color: tomato;
+}
+*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:active {
+    color: tomato;
+}
+
+
+/*
+a:visited {
+    color: violet;
+}
+*/
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px whitesmoke;
+    list-style: disc;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(/images/the-peanuts-movie-1920x1080-snoopy-charlie-brown-7146.jpg);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: #1100ff;
+}
+
+.my-list li:nth-child(5) {
+    background: yellow;
+}
